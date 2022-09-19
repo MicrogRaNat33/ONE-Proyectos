@@ -1,0 +1,117 @@
+body{
+	background: linear-gradient(to right, #bdc3c7, #2c3e50); 
+}
+
+p{
+	text-align: center;
+	font-family: initial;
+}
+.caja{
+     position: relative;
+     width: 940px;
+     margin: 0 auto;
+}
+nav{
+     position: absolute;
+     top: 110px;
+     right:0;
+}
+nav li{
+     display: inline;
+     margin: 0 0 0 15px;
+     
+}
+
+nav a{
+     text-transform: uppercase;
+     color: black;
+     font-weight: bold;
+     font-size: 22px;
+     text-decoration: none;
+}
+
+nav a:hover{
+     color: #c78c19;
+     text-decoration:underline;
+}
+.titulo-principal{
+
+	padding-left: 30px;
+}
+
+.titulo-centralizado{
+	text-align:  center;
+	font-size: xx-large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.descripcion1{
+	font-size: 35px;
+	text-align: justify;
+	padding: 10px;
+}
+em strong{
+	color: black;
+	font-size: 30px;
+}
+
+#mision{
+
+	font-size: 30px;
+
+}
+#banner{
+
+width: 98%;
+height: 700px;
+padding: 2px;
+margin: 40px;
+}
+
+.principal{
+	background: linear-gradient(to right, #bdc3c7, #2c3e50); 
+	color: antiquewhite;
+	padding: 20px;
+}
+.diferenciales{
+	color: antiquewhite;
+	background: linear-gradient(to right, #bdc3c7, #2c3e50); 
+}
+
+
+h3{
+	text-align: center;
+}
+.items{
+	font-style: italic;
+}
+
+ul{
+	display:inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-right: 10%;
+	margin-left: 15%;
+	font-size: xx-large;
+	padding-left: 80px;
+
+	
+}
+.imagecorte{
+
+	width: 500px;
+	min-height: 400px;
+	position: absolute;
+	padding-right:1px;
+	padding-bottom: 50px;
+}
+footer{
+     text-align: center;
+     background: url(imagenes/bg.jpg);
+     padding: 40px;
+}
+.final-text{
+     color: antiquewhite;
+     font-size: 13px;
+     margin: 20px;
+}
